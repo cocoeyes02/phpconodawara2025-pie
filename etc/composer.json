@@ -1,0 +1,36 @@
+{
+    "name": "xdebug/xdebug",
+    "type": "php-ext-zend",
+    "license": "Xdebug-1.03",
+    "description": "Xdebug is an amazing tool...",
+    "require": {
+        "ext-something": "*",
+        "php": ">=7.4.21,<8.4"
+    },
+    "conflict": {
+        "ext-a-conflicting-extension": "*"
+    },
+    "replace": {
+        "ext-xdebug": "*"
+    },
+    "php-ext": {
+        "extension-name": "ext-xdebug",
+        "priority": 80,
+        "support-zts": false,
+        "configure-options": [
+            {
+                "name": "enable-xdebug-dev",
+                "description": "Enable developer flags"
+            },
+            {
+                "name": "without-xdebug-compression",
+                "description": "Disable compression through zlib"
+            },
+            {
+                "name": "some-path-to-something",
+                "needs-value": true,
+                "description": "This should be the path to the thing that is needed."
+            }
+        ]
+    }
+}
