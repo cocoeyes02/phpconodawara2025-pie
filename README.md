@@ -7,9 +7,9 @@ PHPカンファレンス小田原2025で話した「新しいPHP拡張モジュ�
 ## ソースコードへのリンク
 * [PECLでxdebugをインストールする](./pecl)
 * [PIEでxdebugをインストールする](./pie)
-* [PIEでセマンティックバージョニングを使ってxdebugをインストールする](./pie-versioning)
+* [PIEでセマンティックバージョニング記法を使ってxdebugをインストールする](./pie-versioning)
 * [PIEでGithub経由のダウンロードでxdebugをインストールする](./pie-download-repository)
-* [新規のPHP拡張モジュールをpackagistに登録する](./etc)
+* [新規のPHP拡張モジュールをpackagistに登録する場合のcomposer.jsonサンプル例](./etc)
 
 ## 環境準備
 この環境では、DockerおよびDocker-composeを使用しております。
@@ -19,4 +19,3 @@ PHPカンファレンス小田原2025で話した「新しいPHP拡張モジュ�
 ```
 $ docker-compose up --build
 ```
-
